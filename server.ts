@@ -5,6 +5,8 @@ import dotenv from 'dotenv';
 import { processTeachingTurn, reconstructConceptUnderstanding, evaluateSecondAttemptDiff, generatePersonalizedRoadmap } from './server/geminiService';
 import { transcribeWithAssemblyAI, generateNeuralSpeech } from './server/voiceService';
 
+// Load .env.local first (common for Codespaces & local dev), then fall back to .env
+dotenv.config({ path: '.env.local' });
 dotenv.config();
 
 async function startServer() {
