@@ -1,0 +1,7 @@
+{
+  "name": "PROTÉGÉ",
+  "description": "Learn anything by teaching it. Teach your curious protégé in your own words, discover what's missing, and master concepts for good.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
